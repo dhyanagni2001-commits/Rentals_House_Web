@@ -1,0 +1,61 @@
+.landing-card{
+    width: 25vw;
+    height: 30vw;
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 1vw;
+}
+.landing-card.small {
+    border: none;
+    width: 150px;
+    height: 200px; 
+   padding: 0px;    
+}
+.landing-card-textContainer{
+    text-align: start;
+}
+.landing-card-imageContainer{
+    position: relative;
+    text-align: center;
+    height: 15vw;
+    min-height: 75px;
+}
+.landing-card-imageContainer .property-image{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+.land-card-location {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.land-card-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.land-card-price{
+    font-size: 2vw;
+    margin: 0 ;
+    font-weight: 500;
+}
+.clickable-Icon{
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .land-card-location{
+        display: none;
+    }
+}

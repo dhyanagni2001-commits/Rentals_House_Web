@@ -1,0 +1,97 @@
+.myProperties-card-cont{
+    display: flex;
+ 
+    flex-direction: column;
+    gap: 1vw;
+    width: 80%;
+}
+
+.myProperties-button-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1vw;
+    width: 20%;
+}
+.property-card-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.property-card-buttons button{
+    width: 100%;
+    padding: 0.6rem 1.5rem;
+  background-color: #216b9b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.property-card-buttons button:hover {
+    background-color: white;
+    color: #216b9b;
+    outline: 2px solid #216b9b;
+}
+
+/* Form Container */
+.edit-property-form {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for each form field (inputs, selects, textareas) */
+  .edit-property-field {
+    margin-bottom: 16px;
+  }
+  
+  .edit-property-field label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .edit-property-input, .edit-property-select, .edit-property-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .edit-property-input:focus, .edit-property-select:focus, .edit-property-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Styling for the textarea */
+  .edit-property-textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  /* Dropdown options */
+  .edit-property-select {
+    cursor: pointer;
+  }
+  
+  .edit-property-select option {
+    padding: 10px;
+  }
+  
+  
+  /* Styling for the buttons inside the form */
+  .edit-property-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }

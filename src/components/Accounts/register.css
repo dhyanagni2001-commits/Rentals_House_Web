@@ -1,0 +1,127 @@
+
+/* Form styling */
+.register-form {
+    display: grid;
+    gap: 1rem; /* Reduced gap between form fields */
+    
+}
+
+/* Label styling */
+.register-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: left;
+    display: block;
+    margin-bottom: 0.25rem; /* Reduced space between label and input field */
+}
+
+/* Input field styling */
+.register-input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #2c3e50;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.register-input:focus {
+    border-color: #3f51b5;
+    box-shadow: 0 0 6px rgba(63, 81, 181, 0.2);
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-top: -0.5rem;
+    text-align: left;
+}
+
+/* Password strength bar */
+.password-strength-bar {
+    margin-top: 0.5rem;
+    height: 8px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.strength-bar {
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+.strength-0 {
+    background-color: #e74c3c; /* Weak */
+}
+
+.strength-1 {
+    background-color: #e67e22; /* Medium */
+}
+
+.strength-2 {
+    background-color: #f1c40f; /* Fair */
+}
+
+.strength-3 {
+    background-color: #27ae60; /* Strong */
+}
+
+.strength-4 {
+    background-color: #2ecc71; /* Very Strong */
+}
+
+/* Button styling */
+.register-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #216B9B;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #053657;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.register-button.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Link styling */
+.register-link {
+    font-weight: 600;
+    color: #3f51b5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-top: 1rem; /* Adjusted margin for better spacing from the button */
+}
+
+.register-link:hover {
+    color: #303f9f;
+    text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .register-card {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .register-title {
+        font-size: 1.25rem;
+    }
+}

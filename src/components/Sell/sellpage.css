@@ -1,0 +1,234 @@
+.property-listing {
+  max-width: 600px;
+  /* margin: 0 auto; */
+  font-family: Arial, sans-serif;
+}
+
+.property-form {
+  background: rgba(230, 247, 255, 0.77);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 40vw; /* Full width on smaller devices */
+}
+
+.property-type-section {
+  margin-bottom: 20px;
+}
+
+.property-type-buttons {
+  display: flex;
+  flex-direction: row; /* Default horizontal */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.property-type-buttons button {
+  flex: 1;
+  margin: 5px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #CCEBFF;
+  color: #003366;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.property-type-buttons button:hover {
+  background: #B3D4FF;
+}
+
+.property-type-buttons button.active {
+  background: #216B9B;
+  color: white;
+}
+.iconp {
+  margin-right: 5px; /* Adjust the value as needed */
+  
+}
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-row label,
+label {
+  display: block;
+  font-size: 16px;
+  color: #003366;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea,
+.child-input,
+.child-select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 28px;
+  font-size: 16px;
+}
+
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus,
+
+.child-input{
+  border-color: #0056b3;
+  outline: none;
+}
+
+.submit-button,
+.reset-button {
+  width: 13vw;
+  padding: 10px;
+  border: none;
+  border-radius: 28px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: 85px;
+}
+
+.submit-button {
+  background: #216B9B;
+}
+
+.submit-button:hover {
+  background: linear-gradient(90deg, #0056b3, #003366);
+}
+
+.reset-button {
+  background-color: #aaa6a6;
+}
+
+.reset-button:hover {
+  background-color: #c8b5b5;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.image-preview {
+  position: relative;
+  width: 8vw;
+  height: 16vh;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-preview button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Responsive Design for Smaller Devices */
+@media (max-width: 670px) {
+  .property-type-buttons {
+    flex-direction: column; /* Change to vertical */
+  }
+  
+  .property-type-buttons button {
+    width: 100%; /* Full width for buttons */
+  }
+  .sell-image{
+    width: 100%;
+  
+  }
+  .property-form{
+    width: 100%;
+  }
+}
+.proppage{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 20px;
+  gap:4vw;
+  margin: 2vw;
+}
+
+.sell-image{
+  height: auto;
+  width: 44vw;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+  .proppage {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items */
+  }
+  .sell-image{
+    width: 100%;
+  
+  }
+  .property-form{
+    width: 100%;
+  }
+
+ 
+}
+.child-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.child-form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; 
+}
+
+.child-field {
+
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.rsButton{
+  display: flex;
+    gap: 4vw;
+
+}
+
+.map-cont-list-page{
+  width: 100%;
+  height: 30vw;
+}
+
+.list-modal{
+  height: 38vw;
+  width: 100%;
+}
+.list-page-map-search-container{
+  position: relative;
+  z-index: 1000 !important;
+  top: -5vw;
+}
