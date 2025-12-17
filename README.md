@@ -1,4 +1,4 @@
-# 🏠 Urban Estate – Rental Web Application (Frontend)
+# 🏠 Rental House – Rental Web Application (Frontend)
 
 ## Overview
 Urban Estate is a modern rental web application frontend that enables users to **browse rental properties on an interactive map**, view property details, manage favorites, and **chat in real time**.
@@ -31,3 +31,4 @@ This repository contains the **frontend only**.
 ```bash
 npm install
 npm run dev
+
