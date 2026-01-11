@@ -26,9 +26,14 @@ This repository contains the **frontend only**.
 - ESLint (Type-safe rules)
 
 ---
+## Backend Repository 
+Link:https://github.com/dhyanagni2001-commits/Rentals_House_Web_backend
 
+---
 ## Setup
 ```bash
 npm install
 npm run dev
+
+
 
